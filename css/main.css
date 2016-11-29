@@ -19,6 +19,33 @@ p {
 	text-align: center;
 }
 
+a {
+	text-decoration: none;
+}
+
+dl {
+	text-align: left;
+}
+dt {
+	margin-top: 1em;
+	font-weight: bold;
+}
+
+input {
+	/* float: left; */
+}
+
+ul {
+	list-style-type: none;
+}
+
+.active, .button {
+	color: white;
+	background-color: #2ecc71;
+	border-radius: 10px;
+}
+
+
 /*	===========================================================
 	Header
 	===========================================================	*/
@@ -37,7 +64,6 @@ header .logo {
 header ul.nav {
 	margin: 60px 6% 0 0;
 	float: right;
-	list-style-type: none;
 	font-size: 22px;
 	font-family: DroidSans;
 }
@@ -47,7 +73,6 @@ ul.nav li {
 }
 
 ul.nav li>a{
-	text-decoration: none;
 	color: #ffffff;
 }
 
@@ -92,24 +117,34 @@ header>p {
 /*	===========================================================
 	Portfolio
 	===========================================================	*/
-.portfolio {
+.portfolio, .portfolio a {
 	height: 1046px;
 	color: #2c3e50;
+	text-align: center;
+}
+
+.portfolio h2 {
+	margin: 124px 0 0 0;
 }
 
 .portfolio ul {
-	
-	
+	margin: 76px 0 127px 0;	
 }
 
 .portfolio ul li {
 	display: inline;
-	padding: 0 20px;
+	margin: 0 28px;
+	padding: 5px 20px;
+	font-size: 30px;
 }
 
-ul.nav li>a{
+li.active a{
 	text-decoration: none;
 	color: #ffffff;
+}
+
+.portfolio img {
+	padding: 25px;
 }
 /*	===========================================================
 	Team
@@ -160,6 +195,33 @@ ul.nav li>a{
 	text-align: center;
 	color: #2c3e50;
 }	
+.contact h2 {
+	margin: 122px 0 0 0;
+}
+
+.contact p {
+	margin: 32px 0;
+	font-weight: bold;
+}
+
+.contact div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.contact dd {
+	margin-left: 0;
+}
+
+.contact li {
+	margin-bottom: 45px;
+	text-align: left;
+}
+
+.contact .button {
+	padding: 5px 30px;
+	box-shadow: none;
+}
 	
 /*	===========================================================
 	Footer
